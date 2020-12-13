@@ -1,8 +1,9 @@
 # hometask_rep
 Repository for home task
-Створити клас Fruit (name, size, color, taste(SWEET, SOUR, NEUTRAL), etc). Додати enum Topping, який також має поле taste (SWEET, SOUR, NEUTRAL). Створити клас FruitSalad, який складається з набору фруктів і певного топінгу (можна використати enum). Реалізувати метод для вибору топінгу, який залежить від смаку інгредієнтів (на свій смак)). Реалізувати метод для перемішування інгредієнтів.
+Create a class Fruit (name, size, color, taste) (SWEET,SOUR, NEUTRAL), etc.). Add enum Topping, which also has a flavor field (SWEET, SOUR, NEUTRAL). Create a FruitSalad class, which is created from a set of fruits and a specific topping (you can use enum). Implement a method for choosing a topping that depends on the taste of the ingredients (to your taste). Implement a method for moving ingredients.
 
-Як запустити на mac os через terminal:
-Компілюємо файл lab5.cpp командою clang ++ -std=c++11 lab5.cpp
-Скомпільований файл запускаєм завдяки команді ./a.out
+How to run on mac os via terminal:
+We compile the file lab5.cpp with the command clang++ -std=c++11 lab5.cpp Fruit.cpp FruitSalad.cpp Topping.cpp
+We run the compiled file writing the ./a.out command
+
 
